@@ -7,7 +7,7 @@ import {
 } from '@nuxt/kit'
 import { name, version } from '../package.json'
 
-import type { SwiperModuleOptions } from './types'
+import type { SwiperModuleOptions } from './types.ts'
 
 export interface ModuleOptions extends SwiperModuleOptions {}
 

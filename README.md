@@ -1,5 +1,3 @@
-<img width="100%" src="./cover.png" alt="Cover Image">
-
 <h1 align="center">nuxt-swiper</h1>
 
 <p align="center">Swiper.js built for Nuxt 3 </p>
@@ -21,17 +19,10 @@
 
 ## Features
 
-- 🚀 [Nuxt 3](https://v3.nuxtjs.org) Support
-- 📖 Open Source
-- 🪄 Typescript Support
-- ✨ Auto imports enabled
-- ✨ Just works out of the box like magic ✨
-
-## StackBlitz Demo
-
-> Just want to try it out ? Checkout the demo below.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/cpreston321/nuxt-swiper/tree/main/examples/swiper-basic?file=app.vue)
+- [Nuxt 3](https://nuxt.com) Support
+- Typescript Support
+- Auto imports enabled
+- Just works out of the box like magic
 
 ## Install
 
@@ -187,33 +178,23 @@ export {}
 
 ```
 
-## 💻 Development
+## Development
 
 - Clone this repository
 - Enable [Corepack](https://github.com/nodejs/corepack) using `corepack enable`
 - Install dependencies using `pnpm install --shamefully-hoist`
 - Open playground with `pnpm dev`
 
-## ➕ Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## Credits
 
 [`swiper`](https://swiperjs.com/) is developed by [@nolimits4web](https://github.com/nolimits4web).
 [`nuxt-swiper`](#nuxt-swiper) is developed by [@cpreston321](https://github.com/cpreston321).
 
-## 📜 License
+## License
 
 [MIT](./LICENSE) License © 2022 [cpreston321](https://github.com/cpreston321)
 
-# 📧 Contact
+# Contact
 
 cpreston321 - [@cpreston321](https://twitter.com/cpreston321)
 
@@ -223,7 +204,7 @@ Also, if you like my work, please feel free to [buy me a coffee](https://www.buy
   <img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Logo">
 </a>
 
-# 🔥 Contributors
+# Contributors
 
 <a href="https://github.com/cpreston321/nuxt-swiper/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=cpreston321/nuxt-swiper" />

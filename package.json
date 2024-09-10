@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-swiper",
-  "version": "1.2.2",
+  "name": "nuxt3-swiper",
+  "version": "0.9.9",
   "keywords": [
     "vue",
     "nuxt",
@@ -13,8 +13,8 @@
   ],
   "license": "MIT",
   "type": "module",
-  "repository": "cpreston321/nuxt-swiper",
-  "homepage": "https://github.com/cpreston321/nuxt-swiper#readme",
+  "repository": "luoxiangfan/nuxt-swiper",
+  "homepage": "https://github.com/luoxiangfan/nuxt-swiper#readme",
   "author": {
     "name": "cpreston321 <https://christianpreston.com>",
     "url": "https://github.com/cpreston321"
@@ -36,26 +36,23 @@
     "build": "nuxt-module-build build",
     "dev": "nuxt-module-build build --stub && nuxi dev .playground",
     "dev:build": "nuxt-module-build build --stub && nuxi build .playground",
-    "lint": "eslint --ext .js,.ts,.vue .",
-    "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
+    "lint": "eslint . -c eslint.config.js",
+    "lint:fix": "eslint . -c eslint.config.js --fix",
     "test": "vitest run",
-    "release": "release-it",
-    "prepare": "nuxt-module-build prepare && nuxi prepare .playground"
+    "release": "release-it"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.8.0",
-    "swiper": "^11.0.2"
+    "@nuxt/kit": "^3.13.1",
+    "swiper": "^11.1.12"
   },
   "devDependencies": {
-    "@nuxt/module-builder": "^0.5.2",
-    "@nuxt/test-utils": "^3.8.0",
-    "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "@typescript-eslint/parser": "^6.9.0",
-    "eslint": "^8.52.0",
-    "nuxt": "^3.8.0",
-    "release-it": "^16.2.1",
-    "typescript": "^5.2.2",
-    "vitest": "^0.34.6"
+    "@nuxt/module-builder": "^0.8.3",
+    "@nuxt/test-utils": "^3.14.1",
+    "eslint": "^9.10.0",
+    "nuxt": "^3.13.1",
+    "release-it": "^17.6.0",
+    "typescript": "^5.6.2",
+    "vitest": "^2.0.5"
   },
   "resolutions": {
     "nuxt-swiper": "link:."
