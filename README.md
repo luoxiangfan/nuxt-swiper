@@ -16,13 +16,13 @@
 
 ```bash
 # npm
-npm install nuxt-swiper
+npm install nuxt3-swiper
 
 # yarn
-yarn add nuxt-swiper
+yarn add nuxt3-swiper
 
 #pnpm
-pnpm add nuxt-swiper
+pnpm add nuxt3-swiper
 ```
 
 ## Setup
@@ -32,7 +32,7 @@ pnpm add nuxt-swiper
 import { defineNuxtModule } from 'nuxt'
 
 export default defineNuxtConfig({
-  modules: ['nuxt-swiper']
+  modules: ['nuxt3-swiper']
   swiper: {
     // Swiper options
     //----------------------
