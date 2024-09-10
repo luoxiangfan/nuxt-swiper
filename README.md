@@ -1,4 +1,4 @@
-<h1 align="center">nuxt-swiper</h1>
+<h1 align="center">nuxt3-swiper</h1>
 
 <p align="center">Swiper.js built for Nuxt 3 </p>
 
