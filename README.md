@@ -2,18 +2,6 @@
 
 <p align="center">Swiper.js built for Nuxt 3 </p>
 
-<p align="center">
-  <a href="https://npmjs.com/package/nuxt-swiper">
-      <img alt="Version" src="https://img.shields.io/npm/v/nuxt-swiper?color=blue&style=flat-square" />
-  </a>
-  <a href="https://npmjs.com/package/nuxt-swiper">
-      <img alt="Downloads" src="https://img.shields.io/npm/dt/nuxt-swiper?color=blue&style=flat-square" />
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-      <img alt="MIT" src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" />
-  </a>
-</p>
-
 > Fully featured Swiper.js module for Nuxt 3.
 > Checkout [Swiper.js](https://swiperjs.com/) for more information about how to use.
 
