@@ -5,7 +5,9 @@ import {
   extendViteConfig,
   addComponent
 } from '@nuxt/kit'
-import { name, version } from '../package.json'
+import packageConfig from '../package.json' assert { type: 'json' }
+
+const { name, version } = packageConfig
 
 import type { SwiperModuleOptions } from './types.ts'
 

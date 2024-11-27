@@ -36,6 +36,7 @@
     "build": "nuxt-module-build build",
     "dev": "nuxt-module-build build --stub && nuxi dev .playground",
     "dev:build": "nuxt-module-build build --stub && nuxi build .playground",
+    "type-check": "tsc --strict --noEmit",
     "lint": "eslint . -c eslint.config.js",
     "lint:fix": "eslint . -c eslint.config.js --fix",
     "test": "vitest run",
