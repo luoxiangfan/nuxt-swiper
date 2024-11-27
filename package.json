@@ -42,17 +42,17 @@
     "release": "npm run build && release-it"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.14.0",
-    "swiper": "^11.1.14"
+    "@nuxt/kit": "^3.14.1592",
+    "swiper": "^11.1.15"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^0.8.4",
     "@nuxt/test-utils": "^3.14.4",
-    "eslint": "^9.14.0",
-    "nuxt": "^3.14.0",
+    "eslint": "^9.15.0",
+    "nuxt": "^3.14.1592",
     "release-it": "^17.10.0",
-    "typescript": "^5.6.3",
-    "vitest": "^2.1.4"
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.6"
   },
   "resolutions": {
     "nuxt-swiper": "link:."
