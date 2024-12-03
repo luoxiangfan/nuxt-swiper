@@ -118,7 +118,7 @@ export default defineNuxtModule<ModuleOptions>({
 
       config.build.rollupOptions.output = {
         ...config.build.rollupOptions.output,
-        manualChunks: (id) => {
+        manualChunks: (id: string) => {
           if (id.includes('/node_modules/swiper')) {
             return 'swiper-vue'
           }
