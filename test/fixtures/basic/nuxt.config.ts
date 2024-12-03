@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['nuxt-swiper'],
+  modules: ['nuxt3-swiper'],
   swiper: {
     modules: '*'
   }
