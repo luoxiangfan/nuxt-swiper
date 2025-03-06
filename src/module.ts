@@ -5,7 +5,7 @@ import {
   extendViteConfig,
   addComponent
 } from '@nuxt/kit'
-import packageConfig from '../package.json' assert { type: 'json' }
+import packageConfig from '../package.json'
 
 const { name, version } = packageConfig
 
