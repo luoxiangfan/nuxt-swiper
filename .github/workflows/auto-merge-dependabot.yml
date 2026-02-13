@@ -1,0 +1,39 @@
+name: Dependabot Auto-Merge
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+# 最小必要权限
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+
+jobs:
+  merge-dependabot:
+    # 只处理来自dependabot的PR
+    if: |
+      github.actor == 'dependabot[bot]'
+    
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 轻量级检出（仅用于可能需要的git操作）
+      - name: Checkout minimal
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          sparse-checkout: .github  # 只检出配置文件
+          sparse-checkout-cone-mode: false
+
+      # 执行合并
+      - name: Merge PR
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} \
+            --squash \
+            --body "" \
+            --subject "$(gh pr view ${{ github.event.pull_request.number }} --json title -q .title)"
+          
+          echo "Merged successfully"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
