@@ -1,13 +1,13 @@
-<h1 align="center">nuxt3-swiper</h1>
+<h1 align="center">@rfed/nuxt-swiper</h1>
 
-<p align="center">Swiper.js built for Nuxt 3 </p>
+<p align="center">Swiper.js built for Nuxt 4 </p>
 
-> Fully featured Swiper.js module for Nuxt 3.
+> Fully featured Swiper.js module for Nuxt 4.
 > Checkout [Swiper.js](https://swiperjs.com/) for more information about how to use.
 
 ## Features
 
-- [Nuxt 3](https://nuxt.com) Support
+- [Nuxt 4](https://nuxt.com) Support
 - Typescript Support
 - Auto imports enabled
 - Just works out of the box like magic
@@ -16,13 +16,13 @@
 
 ```bash
 # npm
-npm install nuxt3-swiper
+npm install @rfed/nuxt-swiper
 
 # yarn
-yarn add nuxt3-swiper
+yarn add @rfed/nuxt-swiper
 
 #pnpm
-pnpm add nuxt3-swiper
+pnpm add @rfed/nuxt-swiper
 ```
 
 ## Setup
@@ -32,7 +32,7 @@ pnpm add nuxt3-swiper
 import { defineNuxtModule } from 'nuxt'
 
 export default defineNuxtConfig({
-  modules: ['nuxt3-swiper']
+  modules: ['@rfed/nuxt-swiper']
   swiper: {
     // Swiper options
     //----------------------
